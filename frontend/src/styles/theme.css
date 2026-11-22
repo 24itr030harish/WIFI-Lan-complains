@@ -1,0 +1,62 @@
+:root {
+  /* NetCare Navy, Cyan & White Design System Palette */
+  --color-navy-950: #070d18;
+  --color-navy-900: #0b1528;
+  --color-navy-800: #112240;
+  --color-navy-700: #1e3a68;
+  --color-navy-600: #2a4e8a;
+
+  --color-cyan-500: #06b6d4;
+  --color-cyan-400: #22d3ee;
+  --color-cyan-600: #0891b2;
+  --color-cyan-700: #0e7490;
+  --color-cyan-50: #ecfeff;
+
+  --color-blue-500: #2563eb;
+  --color-blue-600: #1d4ed8;
+  --color-blue-50: #eff6ff;
+
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+
+  --color-white: #ffffff;
+  
+  /* Semantic Status & DFA State Colors */
+  --state-s0: #3b82f6; /* Blue: Complaint Registered */
+  --state-s1: #8b5cf6; /* Violet: Under Review */
+  --state-s2: #f59e0b; /* Amber: Assigned to Technician */
+  --state-s3: #06b6d4; /* Cyan: Work In Progress */
+  --state-s4: #10b981; /* Green: Resolved */
+  --state-s5: #059669; /* Emerald: Closed (Accepting) */
+  --state-s6: #ef4444; /* Red: Rejected (Sink) */
+
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #0284c7;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.08);
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
